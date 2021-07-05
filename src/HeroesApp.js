@@ -1,8 +1,8 @@
 import React from 'react'
-import { AppRouter } from './routers/AppRouter'
+import {DashboardRoutes} from './routers/DashboardRoutes'
 
 export const HeroesApp = () => {
     return (
-        <AppRouter />
+        <DashboardRoutes />
     )
 }
