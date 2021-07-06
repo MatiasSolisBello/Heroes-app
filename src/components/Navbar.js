@@ -12,33 +12,33 @@ export const Navbar = () => {
                 </Link>
 
                 {/*Boton responsive */}
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
                 {/*Resto*/}
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                <div className="collapse navbar-collapse" id="navbarText">
+                    <ul className="navbar-nav mr-auto">
+                        <li className="nav-item">
                             <NavLink
-                                activeClassName="active"
+                                activeclass="active"
                                 className="nav-item nav-link"
                                 exact
                                 to="/marvel">Marvel
                             </NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink
-                                activeClassName="active"
+                                activeclass="active"
                                 className="nav-item nav-link"
                                 exact
                                 to="/dc"
                             >DC
                             </NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink
-                                activeClassName="active"
+                                activeclass="active"
                                 className="nav-item nav-link"
                                 exact
                                 to="/search"
