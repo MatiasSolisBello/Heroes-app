@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { Redirect, useParams } from 'react-router-dom';
 import { getHeroesById } from '../selectors/getById';
 
-const heroImages  = require.context('./assets/heroes', true);
+const heroImages  = require.context('../assets/heroes', true);
 
 export const Hero = ({ history }) => {
 
@@ -28,7 +28,7 @@ export const Hero = ({ history }) => {
     return (
         <div className="row mt-5">
             <div className="col-6">
-                <img src={ heroImages(`./${heroeId}.jpg`).default } alt={ superhero } 
+                <img src={ heroImages(`./${heroeId}.JPG`).default } alt={ superhero } 
                 className="img-thumbnail"/>
             </div>
             <div className="col-6">
