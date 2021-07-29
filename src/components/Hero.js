@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { Redirect, useParams } from 'react-router-dom';
 import { getHeroesById } from '../selectors/getById';
 
-const heroImages  = require.context('../assets/heroes', true);
+const heroImages  = require.context('./assets/heroes', true);
 
 export const Hero = ({ history }) => {
 
